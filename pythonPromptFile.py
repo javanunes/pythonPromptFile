@@ -4,8 +4,8 @@ opcao = 0
 qualquerCoisa=""
 
 def banner(titulo):
- print("\n==========JOGOS===========")
- print("==========================\n")
+ print("\n=========="+titulo+"===========")
+ print("===============================\n")
 
 def escreveArquivo(arquivo,texto):
  with open(arquivo, 'a') as nesse:
@@ -47,7 +47,7 @@ def ListaTotalJogos():
  print("\nTOTAL JOGOS ====> "+ str(total) +"\n")
      
 def menu():
- banner("oi")
+ banner("JOGOS 2022")
  menuEscolhido = 0
  print("1)Sair\n2)Nova equipe\n3)Novo jogo\n4)Numero total jogs\n5)Gravar jogo\n6)Listar os jogos\n\n ")
  menuEscolhido = input("Digite a opcao desejada:");
